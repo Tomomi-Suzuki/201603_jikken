@@ -109,7 +109,7 @@ function saveAnsFunc(n_q) {
         selectAns[filePlaying][2] = idEf.options[idEf.selectedIndex].value;
     //} else if (n_q == 2) {
     //    selectAns[filePlaying][3 + ptnPlaying] = idMv.options[idMv.selectedIndex].value;
-    //}
+    }
 }   // END saveAnsFunc
 
 // スライダーが動かされたら選んでいる場所を表示
