@@ -100,7 +100,7 @@ function saveAnsFunc(n_q) {
         //var nameMv = "selectMv0" + fileAns;
     } else {
         var nameEf = "selectEf" + fileAns;
-        var nameMv = "selectMv" + fileAns;
+        //var nameMv = "selectMv" + fileAns;
     }
     nameMv = nameMv + "_" + ptnAsking;
     var idEf = document.getElementById(nameEf);
