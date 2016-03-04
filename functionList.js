@@ -102,7 +102,7 @@ function saveAnsFunc(n_q) {
         var nameEf = "selectEf" + fileAns;
         //var nameMv = "selectMv" + fileAns;
     }
-    nameMv = nameMv + "_" + ptnAsking;
+    //nameMv = nameMv + "_" + ptnAsking;
     var idEf = document.getElementById(nameEf);
     //var idMv = document.getElementById(nameMv);
     if (n_q == 1) {
