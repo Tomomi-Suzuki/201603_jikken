@@ -32,6 +32,7 @@ function ChangeVolume() {
     for (var i = 0; i < array.length; ++i) {
         if (i == playNum) {
             array[i].volume = 1.0;
+            console.log(i)
         } else {
             array[i].volume = 0.0;
         }
@@ -45,6 +46,7 @@ function loadSound() {
         var audioname = readFile + point[filePlaying][ptnPlaying][i] + ".wav";
         array[i] = new Audio(audioname);
     }
+    console.log(audioname);
     for (var i = 0; i < array.length; ++i) {
         array[i].load();
     }
