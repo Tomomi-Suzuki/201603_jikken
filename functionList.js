@@ -126,5 +126,6 @@ function showValue() {
     nameSld = nameSld + "_" + ptnNum;
     var idSld = document.getElementById(nameSld);
     playNum = idSld.value;
+    console.log(idSld.value);
     ChangeVolume();
 }
